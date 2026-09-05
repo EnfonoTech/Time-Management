@@ -2,6 +2,14 @@
 
 time management
 
+### Prepaid support-hours statement engine
+
+A standalone, database-free engine for computing prepaid support-hours
+statements (FIFO-by-expiry allocation, block-level consumption detail,
+overdraft handling) lives at
+[time_management/support_hours/](time_management/support_hours/) - see its
+README for edge-case decisions and how to run its tests.
+
 ### Installation
 
 You can install this app using the [bench](https://github.com/frappe/bench) CLI:
@@ -39,3 +47,4 @@ This app can use GitHub Actions for CI. The following workflows are configured:
 ### License
 
 mit
+# Time-Management
