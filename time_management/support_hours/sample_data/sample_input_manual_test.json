@@ -1,0 +1,12 @@
+{
+  "purchases": [
+    {"id": "B1", "client": "TESTCO", "hours": "8", "purchased_on": "2026-05-01", "expires_on": "2026-05-31", "rate_per_hour": "100"},
+    {"id": "B2", "client": "TESTCO", "hours": "6", "purchased_on": "2026-05-15", "expires_on": "2026-06-30", "rate_per_hour": "110"}
+  ],
+  "consumption": [
+    {"id": "W1", "client": "TESTCO", "hours": "5", "worked_on": "2026-05-10", "task_ref": "TSK-1"},
+    {"id": "W2", "client": "TESTCO", "hours": "4", "worked_on": "2026-05-20", "task_ref": "TSK-2"},
+    {"id": "W3", "client": "TESTCO", "hours": "2", "worked_on": "2026-06-05", "task_ref": "TSK-3"},
+    {"id": "W4", "client": "TESTCO", "hours": "5", "worked_on": "2026-07-01", "task_ref": "TSK-4"}
+  ]
+}

@@ -1,0 +1,19 @@
+{
+  "purchases": [
+    {"id": "P1", "client": "ACME", "hours": "10", "purchased_on": "2026-01-05", "expires_on": "2026-01-31", "rate_per_hour": "100"},
+    {"id": "P2", "client": "ACME", "hours": "10", "purchased_on": "2026-01-10", "expires_on": "2026-02-28", "rate_per_hour": "90"},
+    {"id": "P3", "client": "ACME", "hours": "5",  "purchased_on": "2026-02-20", "expires_on": "2026-03-31", "rate_per_hour": "120"},
+    {"id": "P4", "client": "ACME", "hours": "6",  "purchased_on": "2026-03-20", "expires_on": "2026-04-30", "rate_per_hour": "130"}
+  ],
+  "consumption": [
+    {"id": "CN1", "client": "ACME", "hours": "4",  "worked_on": "2026-01-10", "task_ref": "T-100"},
+    {"id": "CN9", "client": "ACME", "hours": "1",  "worked_on": "2026-01-20", "task_ref": "T-109"},
+    {"id": "CN2", "client": "ACME", "hours": "8",  "worked_on": "2026-01-31", "task_ref": "T-101"},
+    {"id": "CN3", "client": "ACME", "hours": "1",  "worked_on": "2026-02-01", "task_ref": "T-102"},
+    {"id": "CN4", "client": "ACME", "hours": "5",  "worked_on": "2026-03-01", "task_ref": "T-103"},
+    {"id": "CN5", "client": "ACME", "hours": "3",  "worked_on": "2026-03-15", "task_ref": "T-104"},
+    {"id": "CN6", "client": "ACME", "hours": "-1", "worked_on": "2026-03-16", "task_ref": "T-104"},
+    {"id": "CN7", "client": "ACME", "hours": "4",  "worked_on": "2026-03-25", "task_ref": "T-105"},
+    {"id": "CN8", "client": "ACME", "hours": "5",  "worked_on": "2026-04-02", "task_ref": "T-106"}
+  ]
+}
